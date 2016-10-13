@@ -1,34 +1,36 @@
 # quiz_week
 
+
+
 con <- gzfile("hw1_data.csv" , sep = "-")
 
 data <- read.csv("hw1_data.csv")
 
 
-# #11
+# #11 In the dataset provided for this Quiz, what are the column names of the dataset? 
 names(data)
 
-#  #12
+#  #12  Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
 
 x <- readLines(con,3)
 x
-
-# #13
+# #13  How many observations (i.e. rows) are in this data frame?
 nrow(data)
-# #14
+
+# #14 Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
 data_matrix <-data.matrix(data)
 data_matrix[152:153,]
 
-# #15
+# #15 What is the value of Ozone in the 47th row?
 data_matrix[47 , 1]
 
-# #16 
+# #16 How many missing values are in the Ozone column of this data frame?
 z <- data_matrix[ ,1]
 z_na <- is.na(z)
 num_NA_oz <- sum(z_na)
 num_NA_oz
 
-# #17
+# #17 What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
 
 valid_oz <- z[!is.na(z)]
 mean_oz <- sum(valid_oz)/(153 - num_NA_oz)
