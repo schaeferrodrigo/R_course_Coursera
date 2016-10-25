@@ -2,3 +2,18 @@
 Basic Programs in R for the introduction course in R.
 
 This repository is for to store the basics programs in R. 
+
+
+<h2> Basic functions</h2>
+
+
+<h3> Reading and writting a Data Frame </h3>
+
+<ul>
+<li>read.csv('name_file.csv') - read a external data frame.<br>
+example: 
+data_time <- read.csv("diffusion_many_coef.csv")  
+</li>
+</ul>
+
+
