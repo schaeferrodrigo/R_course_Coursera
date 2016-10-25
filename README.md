@@ -17,7 +17,7 @@ data_time <- read.csv("diffusion_many_coef.csv")
 </ul>
 
 
-<h3> Basic datas </h3>
+<h3> Basic informations </h3>
 <ul>
 <li> nrow(data frame) /ncol is equivalent/- number of rows <br>
 example:<br>
