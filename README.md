@@ -11,8 +11,17 @@ This repository is for to store the basics programs in R.
 
 <ul>
 <li>read.csv('name_file.csv') - read a external data frame.<br>
-example: 
+example: <br>
 data_time <- read.csv("diffusion_many_coef.csv")  
+</li>
+</ul>
+
+
+<h3> Basic datas </h3>
+<ul>
+<li> nrow(data frame) /ncol is equivalent/- number of rows <br>
+example:<br>
+nrow(data)
 </li>
 </ul>
 
