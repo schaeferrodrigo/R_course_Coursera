@@ -23,6 +23,8 @@ data_time <- read.csv("diffusion_many_coef.csv")
 example:<br>
 nrow(data)
 </li>
+<li>max(vector) /min is equivalent/ - return the maximum value between the entries <br>
+</li>
 </ul>
 
 
